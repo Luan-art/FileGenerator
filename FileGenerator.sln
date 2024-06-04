@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{11F51DB4-2E50-4A21-9700-E64C1E9A5974}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\RadarPersist\Models\Models.csproj", "{B0169288-A381-4472-8185-19FEFD8C6438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{11F51DB4-2E50-4A21-9700-E64C1E9A5974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F51DB4-2E50-4A21-9700-E64C1E9A5974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F51DB4-2E50-4A21-9700-E64C1E9A5974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0169288-A381-4472-8185-19FEFD8C6438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0169288-A381-4472-8185-19FEFD8C6438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0169288-A381-4472-8185-19FEFD8C6438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0169288-A381-4472-8185-19FEFD8C6438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
