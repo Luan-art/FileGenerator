@@ -15,7 +15,6 @@ namespace Repositories
         public List<Radar> Recuperar()
         {
             List<Radar> records = new List<Radar>();
-            bool result = false;
 
             string sql = "Select concessionaria, ano_do_pnv_snv, tipo_de_radar, rodovia, uf, km_m, municipio, tipo_pista, sentido," +
                         " situacao, data_da_inativacao, latitude, longitude, velocidade_leve FROM Radar";
